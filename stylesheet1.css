@@ -93,11 +93,28 @@ body {
 	border-bottom-left-radius: 20px; 
 }
 
-#information{
-	text-align: center;
-}
-#information li {
-	font-color: white;
-	font-size: 5px;
+#images{
+	margin: 0px; 
 }
 
+img {
+	margin: 0px 40px 0px 40px; 
+}
+
+#outer{
+	width: 100%; 
+	margin: 25px 25px 25px 25px;
+}
+
+#information{
+	text-align: center;
+	background-color: black;
+	border: solid #505050 5px; 
+	width: 50%; 
+	margin:0 auto;
+}
+#information li {
+	color: white;
+	font-size: 30px;
+	list-style: none; 
+}
