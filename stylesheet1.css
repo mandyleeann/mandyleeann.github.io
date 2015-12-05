@@ -1,5 +1,6 @@
-@media screen and (device-pixel-ratio: 2) {
+@media screen and (max-width: 490px) {
 	body { width: 100%};
+	#top { font-size: 3em;}
 }
 
 @-webkit-keyframes pulse {
