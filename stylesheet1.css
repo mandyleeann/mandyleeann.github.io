@@ -1,4 +1,4 @@
-@media screen and (min-width: 490px) {
+@media screen and (max-width: 490px) {
 	#top { font-size: 3em;}
 	.nav li {font-size: .3em;}
 }
@@ -93,4 +93,11 @@ body {
 	border-bottom-left-radius: 20px; 
 }
 
+#information{
+	text-align: center;
+}
+#information li {
+	font-color: white;
+	font-size: 5px;
+}
 
