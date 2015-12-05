@@ -1,6 +1,6 @@
 @media screen and (max-width: 490px) {
 	body { width: 100%};
-	#top { font-size: 3em;}
+	#top { font-size: 5px;}
 }
 
 @-webkit-keyframes pulse {
