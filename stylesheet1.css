@@ -1,4 +1,6 @@
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 500px) {
+	#container { width: 100%};
+}
 
 @-webkit-keyframes pulse {
 	0% {background-color: #FFFF99;}
@@ -90,4 +92,4 @@ body {
 	border-bottom-left-radius: 20px; 
 }
 
-}
+
