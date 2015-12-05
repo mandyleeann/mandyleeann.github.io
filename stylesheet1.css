@@ -1,5 +1,5 @@
-@media screen and (max-width: 500px) {
-	#container { width: 100%};
+@media screen and (device-pixel-ratio: 2) {
+	body { width: 100%};
 }
 
 @-webkit-keyframes pulse {
