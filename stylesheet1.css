@@ -2,6 +2,9 @@
 	body { width: 100%};
 	#top { font-size: 5px;}
 }
+@media screen and (min-width: 490px) {
+	#top { font-size: 10px;}
+}
 
 @-webkit-keyframes pulse {
 	0% {background-color: #FFFF99;}
@@ -18,7 +21,7 @@ body {
 }
 
 #top {
-	font-size: 5em;
+	/*font-size: 5em;*/
 	text-align: center; 
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold; 
