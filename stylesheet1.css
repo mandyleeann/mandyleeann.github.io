@@ -118,3 +118,15 @@ img {
 	font-size: 30px;
 	list-style: none; 
 }
+#ref{
+	background-color: black;
+	border: solid #505050 5px; 
+	width: 50%; 
+	margin:0 auto;
+	color: white; 
+	padding: 25px; 
+}
+#ref li{
+	color: white;
+	font-size: 20px;
+}
