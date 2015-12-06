@@ -178,9 +178,9 @@ img
 	#top {
 		width: 100%; 
 	}
-	/*.nav {
+	.nav ul {
 		width: 100%;
-	}*/
+	}
 	#message {
 		width: 100%;
 	}
