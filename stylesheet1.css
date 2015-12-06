@@ -1,6 +1,8 @@
 @media screen and (max-width: 490px) {
-	#top { font-size: 3em;}
-	.nav li {font-size: .3em;}
+	#top { font-size: 40px;}
+}
+@media screen and (min-width: 500px) {
+	#top { font-size: 90px;}
 }
 
 @-webkit-keyframes pulse {
@@ -18,7 +20,6 @@ body {
 }
 
 #top {
-	font-size: 5em;
 	text-align: center; 
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold; 
