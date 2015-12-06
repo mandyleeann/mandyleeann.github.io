@@ -120,7 +120,7 @@ img
 }
 #information li ul li 
 {
-	font-size: 2em
+	font-size: 1em
 }
 #information p
 {
@@ -128,6 +128,13 @@ img
 	text-align: center;
 	color: white; 
 	padding: 25px; 
+}
+#abo_con p
+{
+	font-size: 4em; 
+	text-align: center;
+	color: white; 
+	padding: 25px; 	
 }
 #information a 
 {
@@ -182,6 +189,9 @@ img
 		font-size: .5em; 
 	}
 	#information {
+		width: 100%;
+	}
+	#abo_con {
 		width: 100%;
 	}
 	#information li {
