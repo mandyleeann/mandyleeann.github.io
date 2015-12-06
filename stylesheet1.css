@@ -196,9 +196,9 @@ img {
 	#top {
 		width: 100%; 
 	}
-	.nav {
+	/*.nav {
 		width: 100%;
-	}
+	}*/
 	#message {
 		width: 100%;
 	}
@@ -215,13 +215,18 @@ img {
 	#ref li {
 		font-size: .5em; 
 	}
+	#information {
+		width: 100%;
+	}
 	#information li {
 		font-size: 1em; 
 	}
 	#information li ul li {
 		font-size: 1em;
 	}
-	
+	#abt{
+		width: 100%;
+	}
 	#abt p {
 		font-size: 1em;
 	}
