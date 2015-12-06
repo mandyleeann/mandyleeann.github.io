@@ -158,7 +158,7 @@ img {
   	overflow: hidden;
   	text-overflow: ellipsis;    
 }
-#abt {
+#abt p{
 	text-align: center;
 	background-color: black;
 	border: solid #505050 5px; 
@@ -166,5 +166,4 @@ img {
 	margin:0 auto;
 	color: white; 
 	padding: 25px; 
-}
 }
