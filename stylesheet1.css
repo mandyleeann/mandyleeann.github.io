@@ -1,18 +1,21 @@
-@-webkit-keyframes pulse {
+/*color changing title background*/
+@-webkit-keyframes pulse 
+{
 	0% {background-color: #FFFF99;}
 	25% {background-color: #FF9999;}
 	50% {background-color: #66FFCC;}
 	75% {background-color: #33CCFF;}
 	100% {background-color: #FFCC66;}
+	
 }
-
-body {
+body 
+{
 	background-image: url("http://bgfons.com/upload/stars_texture2956.jpg");
 	margin: auto; 
 	margin-bottom: 0px; 
 }
-
-#top {
+#top 
+{
 	font-size: 5em; 
 	text-align: center; 
 	font-family: Tahoma, Geneva, sans-serif;
@@ -23,60 +26,61 @@ body {
 	margin: 10px 10px 0px 10px; 
 	border-color: #505050  ; 
 	border-style: solid;
-    border-width: 5px 5px 0px 5px;
+    	border-width: 5px 5px 0px 5px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 }
-
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center;
-  padding: 0;
-  margin: 0px 10px 0px 10px;
-  border-color: #505050; 
-  border-style: solid;
-  border-width: 0px 5px 0px 5px;
+.nav ul 
+{
+  	list-style: none;
+  	background-color: #444;
+  	text-align: center;
+  	padding: 0;
+  	margin: 0px 10px 0px 10px;
+  	border-color: #505050; 
+  	border-style: solid;
+  	border-width: 0px 5px 0px 5px;
 }
-.nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
+.nav li 
+{
+	font-family: 'Oswald', sans-serif;
+  	font-size: 1.2em;
+  	line-height: 40px;
+  	height: 40px;
+  	border-bottom: 1px solid #888;
 }
- 
-.nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
+.nav a 
+{
+  	text-decoration: none;
+  	color: #fff;
+  	display: block;
+  	transition: .3s background-color;
 }
- 
-.nav a:hover {
-  background-color: #333366;
+.nav a:hover 
+{
+  	background-color: #333366;
 }
- 
-.nav a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
+.nav a.active 
+{
+  	background-color: #fff;
+  	color: #444;
+  	cursor: default;
 }
- 
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
- 
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-
-#message {
+.nav li 
+{
+    	width: 120px;
+    	border-bottom: none;
+    	height: 50px;
+    	line-height: 50px;
+    	font-size: 1.4em;
+}
+.nav li 
+{
+    	display: inline-block;
+    	margin-right: -4px;
+}
+#message 
+{
 	background-color: white;
 	text-align: center; 
 	font-size: 1.25em; 
@@ -87,45 +91,48 @@ body {
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px; 
 }
-
-#images{
+#images
+{
 	margin: 0px; 
 }
-
-img {
+img 
+{
 	margin: 0px 40px 0px 40px; 
 }
-
-#outer{
+#outer
+{
 	width: 100%; 
 	margin: 25px 25px 25px 25px;
 }
-
-#information{
+#information
+{
 	text-align: center;
 	background-color: black;
 	border: solid #505050 5px; 
 	width: 50%; 
 	margin:0 auto;
 }
-#information li {
+#information li 
+{
 	font-size: 2em; 
 	color: white;
 	list-style: none; 
 }
-#information li ul li {
-		font-size: 1em
-	}
-#ref{
+#information li ul li 
+{
+	font-size: 1em
+}
+#ref
+{
 	background-color: black;
 	border: solid #505050 5px; 
 	width: 75%; 
 	margin:0 auto;
 	color: white; 
 	padding: 25px; 
-	
 }
-#ref li{
+#ref li
+{
 	font-size: 1em; 
 	color: white;
 	width: 65%;
@@ -134,33 +141,38 @@ img {
   	overflow: hidden;
   	text-overflow: ellipsis;    
 }
-#abt {
+#abt 
+{
 	background-color: black;
 	border: solid #505050 5px; 
 	width: 60%; 
 	margin:0 auto;
 }
-#abt p{
+#abt p
+{
 	font-size: 1em;
 	text-align: center;
 	color: white; 
 	padding: 25px; 
 }
-#abt a{
+#abt a
+{
 	text-decoration: underline;
 	color: #E8E8E8; 
 }
-#information p{
+#information p
+{
 	font-size: 1em; 
 	text-align: center;
 	color: white; 
 	padding: 25px; 
 }
-#information a {
+#information a 
+{
 	text-decoration: underline;
 	color: #E8E8E8; 
 }
-
+/*changes for smaller screen*/
 @media only screen and (max-device-width: 599px) {
 	
 	#top {
