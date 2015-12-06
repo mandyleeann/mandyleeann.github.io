@@ -147,4 +147,8 @@ img {
 #ref li{
 	color: white;
 	width: 65%;
+	list-style-position:inside;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;    
 }
