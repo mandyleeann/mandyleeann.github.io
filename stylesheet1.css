@@ -209,8 +209,21 @@ img {
 		width: 100%; 
 	}
 	img {
-    max-width: 50%;
-    height: auto; 
+    		max-width: 50%;
+    		height: auto; 
+	}
+	#ref li {
+		font-size: .5em; 
+	}
+	#information li {
+		font-size: 1em; 
+	}
+	#information li ul li {
+		font-size: 1em;
+	}
+	
+	#abt p {
+		font-size: 1em;
 	}
 	
 }
