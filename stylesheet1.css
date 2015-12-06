@@ -1,8 +1,10 @@
 @media screen and (max-width: 490px) {
 	#top { font-size: 2em;}
+	#images {width: 100%;}
 }
 @media screen and (min-width: 500px) {
 	#top { font-size: 5em;}
+	#images { width: 100%;}
 }
 
 @-webkit-keyframes pulse {
