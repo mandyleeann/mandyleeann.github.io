@@ -129,9 +129,17 @@ img
 	color: white; 
 	padding: 25px; 
 }
+#abo_con
+{
+	text-align: center;
+	background-color: black;
+	border: solid #505050 5px; 
+	width: 50%; 
+	margin:0 auto;
+}
 #abo_con p
 {
-	font-size: 4em; 
+	font-size: 3em; 
 	text-align: center;
 	color: white; 
 	padding: 25px; 	
@@ -183,7 +191,7 @@ img
     		height: auto; 
 	}
 	#ref {
-		width: 100%;
+		width: 80%;
 	}
 	#ref li {
 		font-size: .5em; 
