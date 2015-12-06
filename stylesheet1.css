@@ -1,8 +1,8 @@
 @media screen and (max-width: 490px) {
-	#top { font-size: 40px;}
+	#top { font-size: 2em;}
 }
 @media screen and (min-width: 500px) {
-	#top { font-size: 90px;}
+	#top { font-size: 5em;}
 }
 
 @-webkit-keyframes pulse {
