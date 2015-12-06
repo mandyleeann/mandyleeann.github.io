@@ -6,7 +6,7 @@
     width: auto\9; /* ie8 */
 	}
 	#ref li {
-		font-size: 1em; 
+		font-size: .5em; 
 	}
 	#information li {
 		font-size: 1em; 
@@ -15,7 +15,7 @@
 @media screen and (min-width: 490px) {
 	#top { font-size: 5em;}
 	#ref li {
-		font-size: 2em; 
+		font-size: 1em; 
 	}
 	#information li {
 		font-size: 2em; 
@@ -142,7 +142,9 @@ img {
 	margin:0 auto;
 	color: white; 
 	padding: 25px; 
+	
 }
 #ref li{
 	color: white;
+	width: 65%;
 }
