@@ -176,6 +176,10 @@ img {
 	color: white; 
 	padding: 25px; 
 }
+#abt a{
+	text-decoration: underline;
+	color: #E8E8E8; 
+}
 #information p{
 	font-size: 1em; 
 	text-align: center;
