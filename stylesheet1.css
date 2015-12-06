@@ -120,7 +120,19 @@ img
 }
 #information li ul li 
 {
-	font-size: 1em
+	font-size: 2em
+}
+#information p
+{
+	font-size: 2em; 
+	text-align: center;
+	color: white; 
+	padding: 25px; 
+}
+#information a 
+{
+	text-decoration: underline;
+	color: #E8E8E8; 
 }
 #ref
 {
@@ -140,18 +152,6 @@ img
   	white-space: nowrap;
   	overflow: hidden;
   	text-overflow: ellipsis;    
-}
-#information p
-{
-	font-size: 2em; 
-	text-align: center;
-	color: white; 
-	padding: 25px; 
-}
-#information a 
-{
-	text-decoration: underline;
-	color: #E8E8E8; 
 }
 /*changes for smaller screen*/
 @media only screen and (max-device-width: 599px) {
