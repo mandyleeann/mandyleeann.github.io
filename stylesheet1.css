@@ -1,11 +1,25 @@
 @media screen and (max-width: 490px) {
 	#top { font-size: 2em;}
-	#images {width: 100%;}
-	img { width: img.width/2;} 
+	img {
+    max-width: 50%;
+    height: auto;
+    width: auto\9; /* ie8 */
+	}
+	#ref li {
+		font-size: 8px; 
+	}
+	#information li {
+		font-size: 15px; 
+	}
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 490px) {
 	#top { font-size: 5em;}
-	#images { width: 100%;}
+	#ref li {
+		font-size: 15px; 
+	}
+	#information li {
+		font-size: 30px; 
+	}
 }
 
 @-webkit-keyframes pulse {
@@ -119,7 +133,6 @@ img {
 }
 #information li {
 	color: white;
-	font-size: 30px;
 	list-style: none; 
 }
 #ref{
@@ -132,5 +145,4 @@ img {
 }
 #ref li{
 	color: white;
-	font-size: 20px;
 }
