@@ -176,6 +176,9 @@ img
 /*changes for smaller screen*/
 @media only screen and (max-device-width: 599px) {
 	
+	#container {
+		width: 100%;
+	}
 	#top {
 		width: 100%; 
 	}
