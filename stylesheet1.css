@@ -139,7 +139,7 @@ img
 }
 #abo_con p
 {
-	font-size: 3em; 
+	font-size: 2em; 
 	text-align: center;
 	color: white; 
 	padding: 25px; 	
@@ -191,7 +191,7 @@ img
     		height: auto; 
 	}
 	#ref {
-		width: 80%;
+		width: 90%;
 	}
 	#ref li {
 		font-size: .5em; 
@@ -200,7 +200,7 @@ img
 		width: 100%;
 	}
 	#abo_con {
-		width: 100%;
+		width: 90%;
 	}
 	#information li {
 		font-size: 1em; 
