@@ -1,6 +1,7 @@
 @media screen and (max-width: 490px) {
 	#top { font-size: 2em;}
 	#images {width: 100%;}
+	img { width: img.width/2;} 
 }
 @media screen and (min-width: 500px) {
 	#top { font-size: 5em;}
