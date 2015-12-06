@@ -113,7 +113,8 @@ img
 	background-color: black;
 	border: solid #505050 5px; 
 	width: 50%; 
-	margin: 0px 0px 50px 0px;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
 #information li 
 {
