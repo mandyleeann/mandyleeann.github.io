@@ -114,7 +114,7 @@ img
 	border: solid #505050 5px; 
 	width: 50%; 
 	margin: 0 auto;
-	margin-bottom: 50px;
+	margin-bottom: 75px;
 }
 #information li 
 {
@@ -216,6 +216,7 @@ div.scroll {
 @media only screen and (max-device-width: 599px) {
 	.scroll {
 		width:100%;
+		height:10%;
 	}
 	#scroll_title {
 		width: 50%;
