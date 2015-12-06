@@ -172,8 +172,11 @@ img
 		width: 100%; 
 	}
 	img {
-    		max-width: 50%;
+    		max-width: 30%;
     		height: auto; 
+	}
+	#ref {
+		width: 100%;
 	}
 	#ref li {
 		font-size: .5em; 
