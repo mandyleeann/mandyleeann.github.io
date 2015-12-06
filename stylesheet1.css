@@ -226,6 +226,7 @@ div.scroll {
 	}
 	#container {
 		width: 100%;
+		    height:auto;
 	}
 	#top {
 		width: 100%; 
