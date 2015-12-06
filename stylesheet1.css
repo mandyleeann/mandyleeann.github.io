@@ -91,6 +91,9 @@ body
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px; 
 }
+#container {
+	width: 100%;
+}
 #images
 {
 	margin: 0px; 
