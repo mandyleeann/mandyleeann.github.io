@@ -144,6 +144,11 @@ img
 	color: white; 
 	padding: 25px; 	
 }
+#abo_con a 
+{
+	text-decoration: underline;
+	color: #E8E8E8; 
+}
 #information a 
 {
 	text-decoration: underline;
