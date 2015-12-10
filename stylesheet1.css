@@ -270,6 +270,9 @@ div.scroll {
 	#abo_con {
 		width: 75%;
 	}
+	#abo_con p {
+		font-size: 1em;
+	}
 	#information li {
 		font-size: 1em; 
 	}
