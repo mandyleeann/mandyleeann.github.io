@@ -29,16 +29,16 @@
   
   	<div id="container">
 	<!-- set up canvas for each circle -->
-	<canvas id="mycanvas1" width="230" height="800"></canvas>
-	<canvas id="mycanvas2" width="150" height="800"></canvas>
-	<canvas id="mycanvas3" width="175" height="800"></canvas>
-	<canvas id="mycanvas4" width="175" height="800"></canvas>
-	<canvas id="mycanvas5" width="175" height="800"></canvas>
-	<canvas id="mycanvas6" width="200" height="800"></canvas>
-	<canvas id="mycanvas7" width="200" height="800"></canvas>
-	<canvas id="mycanvas8" width="175" height="800"></canvas>
-	<canvas id="mycanvas9" width="200" height="800"></canvas>
-	<canvas id="mycanvas10" width="125" height="800"></canvas>
+	<canvas id="mycanvas1" width="255" height="600"></canvas>
+	<canvas id="mycanvas2" width="150" height="335"></canvas>
+	<canvas id="mycanvas3" width="175" height="335"></canvas>
+	<canvas id="mycanvas4" width="175" height="335"></canvas>
+	<canvas id="mycanvas5" width="150" height="335"></canvas>
+	<canvas id="mycanvas6" width="200" height="335"></canvas>
+	<canvas id="mycanvas7" width="175" height="335"></canvas>
+	<canvas id="mycanvas8" width="175" height="335"></canvas>
+	<canvas id="mycanvas9" width="195" height="335"></canvas>
+	<canvas id="mycanvas10" width="125" height="335"></canvas>
 	</div>
   
 </body>
@@ -118,7 +118,7 @@
 	var sun = "http://users.csc.calpoly.edu/~zwood/teaching/csc471/finalsF12/anguye50/Images/sun.bmp";
 	var mercury = "http://www.solarsystemscope.com/nexus/content/planet_textures/texture_mercury.jpg";
 	var venus = "http://www.solarsystemscope.com/nexus/content/planet_textures/texture_venus_surface.jpg";
-	var earth = "http://www.johnstonsarchive.net/spaceart/cmaps/earthmap.jpg";
+	var earth = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRsii4Sva6iagUvKkW3oqKJIHT1iwjFU2nng0HBcsMK9vRewR";
 	var mars = "https://s-media-cache-ak0.pinimg.com/736x/53/ac/fe/53acfe167350e583bc1fd3156abc0481.jpg";
 	var jupiter = "http://csstudent.srru.ac.th/55122420137/texture/jupiter.jpg";
 	var saturn = "http://www.planetaryvisions.com/images_new/35.jpg";
@@ -128,18 +128,18 @@
 	var pluto = "http://read.pudn.com/downloads16/sourcecode/graph/60825/74230708/OpenGL%E6%8B%BE%E5%8F%96%E4%BE%8B%E5%AD%90[%E5%A4%AA%E9%98%B3%E7%B3%BB]/Pluto__.jpg";
 	
 	//call drawCircle function for each circle
-	drawCircle(context1, -175, 395, 400, 9, "#FE9A2E", sun, circles);
-	drawCircle(context2, 75, 475, 50, 5, "#BDBDBD", mercury, circles);
-	drawCircle(context3, 60, 300, 40, 5, "#F3E2A9", venus, circles);
-	drawCircle(context4, 70, 400, 60, 5, "#A9E2F3", earth, circles);
-	drawCircle(context5, 55, 550, 40, 5, "#B45F04", mars, circles);
-	drawCircle(context6, 90, 250, 80, 5, "#CEECF5", jupiter, circles);
-	draw(context7, 75, 425, 65, 5, "#FFFFCC", ""); //rings
-	draw(context7, 75, 425, 59, 3, "#FFFFCC", ""); //rings
-	drawCircle(context7, 75, 425, 50, 5, "black", saturn, circles); 
-	drawCircle(context8, 55, 525, 40, 5, "#58D3F7", uranus, circles);
-	drawCircle(context9, 70, 325, 60, 5, "#01A9DB", neptune, circles);
-	drawCircle(context10, 55, 500, 25, 5, "#81BEF7", pluto, circles);
+	drawCircle(context1, -50, 300, 300, 9, "#FE9A2E", sun, circles);
+	drawCircle(context2, 75, 85, 50, 5, "#BDBDBD", mercury, circles);
+	drawCircle(context3, 60, 85, 40, 5, "#F3E2A9", venus, circles);
+	drawCircle(context4, 70, 85, 60, 5, "#A9E2F3", earth, circles);
+	drawCircle(context5, 55, 85, 40, 5, "#B45F04", mars, circles);
+	drawCircle(context6, 90, 85, 80, 5, "#CEECF5", jupiter, circles);
+	draw(context7, 75, 85, 65, 5, "#FFFFCC", ""); //rings
+	draw(context7, 75, 85, 59, 3, "#FFFFCC", ""); //rings
+	drawCircle(context7, 75, 85, 50, 5, "black", saturn, circles); 
+	drawCircle(context8, 55, 85, 40, 5, "#58D3F7", uranus, circles);
+	drawCircle(context9, 70, 85, 60, 5, "#01A9DB", neptune, circles);
+	drawCircle(context10, 55, 85, 25, 5, "#81BEF7", pluto, circles);
 	
 	
 	//jQueryscript for each canvas to see which circle was clicked, and link to appropriate webpage or alert 
