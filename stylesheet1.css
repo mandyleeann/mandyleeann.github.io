@@ -18,7 +18,7 @@ body
 }
 #top 
 {
-	font-size: 5em; 
+	/*font-size: 5em;*/
 	text-align: center; 
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold; 
@@ -233,7 +233,7 @@ div.scroll {
 	}
 	#top {
 		width: 100%; 
-		font-size: 5em;
+		font-size: 20px;
 	}
 	.nav ul {
 		width: 100%;
