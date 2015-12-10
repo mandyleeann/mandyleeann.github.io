@@ -278,7 +278,7 @@ div.scroll {
 }
 
 /*changes for smaller screen*/
-@media only screen and (max-device-width: 599px) {
+/*@media only screen and (max-device-width: 599px) {
 	body {
 		width:100%;
 	}
@@ -297,7 +297,7 @@ div.scroll {
 	}
 	#top {
 		width: 100%; 
-		font-size: 2em;
+		font-size: 1em;
 	}
 	.nav ul {
 		width: 100%;
@@ -339,4 +339,4 @@ div.scroll {
 	#information p {
 		font-size: 1em;
 	}
-}
+}*/
