@@ -216,6 +216,11 @@ div.scroll {
 }
 
 @media screen and (max-width: 599px) {
+	
+	#mycanvas1 {
+		width: 35%;
+		height: auto;
+	}
 	body {
 		width:100%;
 	}
@@ -227,18 +232,9 @@ div.scroll {
     	height: 28px;
 		font-size: 1.3em;
 	}
-	#mycanvas1 {
-		width: 500%;
-		height: auto;
-	}
-	#mycanvas2 {
-		width: 500%;
-		height: 25%;
-	}
-	
 	#container {
-		width: 10%;
-		    height:50%;
+		width: 100%;
+		height: auto;
 	}
 	#top {
 		width: 100%; 
@@ -260,29 +256,29 @@ div.scroll {
 		width: 100%; 
 	}
 	img {
-    		max-width: 50%;
+    		max-width: 30%;
     		height: auto; 
 	}
 	#ref {
-		width: 90%;
+		width: 75%;
 	}
 	#ref li {
 		font-size: .5em; 
 	}
 	#information {
-		width: 90%;
+		width: 75%;
 	}
 	#abo_con {
-		width: 90%;
+		width: 75%;
 	}
 	#information li {
-		font-size: .5em; 
+		font-size: 1em; 
 	}
 	#information li ul li {
-		font-size: .5em;
+		font-size: 1em;
 	}
 	#information p {
-		font-size: .5em;
+		font-size: 1em;
 	}
 }
 
@@ -345,7 +341,3 @@ div.scroll {
 		font-size: 1em;
 	}
 }
-
-
-
-
