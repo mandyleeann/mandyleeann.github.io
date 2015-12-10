@@ -234,6 +234,7 @@ div.scroll {
 	}
 	#top {
 		width: 100%; 
+		font-size: 1em;
 	}
 	.nav ul {
 		width: 100%;
