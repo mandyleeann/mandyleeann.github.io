@@ -215,7 +215,7 @@ div.scroll {
 	padding: 0px 10px 10px 10px; 
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
 	
 	body {
 		width:100%;
@@ -279,7 +279,7 @@ div.scroll {
 }
 
 	
-@media only screen and (max-device-width: 1500px) {
+@media only screen and (max-device-width: 1200px) {
 	body {
 		width:100%;
 	}
