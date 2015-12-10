@@ -228,45 +228,10 @@ div.scroll {
 		font-size: 1.3em;
 	}
 	#mycanvas1 {
-		width: 100%;
+		width: 500%;
 		height: auto;
 	}
-	#mycanvas2 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas3 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas4 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas5 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas6 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas7 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas8 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas9 {
-		width: 100%;
-		height: auto;
-	}
-	#mycanvas10 {
-		width: 100%;
-		height: auto;
-	}
+	
 	#container {
 		width: 10%;
 		    height:50%;
