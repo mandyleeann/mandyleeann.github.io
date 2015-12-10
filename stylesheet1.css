@@ -215,7 +215,7 @@ div.scroll {
 	padding: 0px 10px 10px 10px; 
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 900px) {
 	
 	#mycanvas1 {
 		width: 35%;
@@ -283,7 +283,7 @@ div.scroll {
 }
 
 	
-@media only screen and (max-device-width: 599px) {
+@media only screen and (max-device-width: 900px) {
 	body {
 		width:100%;
 	}
