@@ -233,13 +233,13 @@ div.scroll {
 	}
 	#top {
 		width: 100%; 
-		font-size: 5em;
+		font-size: 2em;
 	}
 	.nav ul {
 		width: 100%;
 	}
 	.nav li {
-		font-size: 1.2em;
+		font-size: 2em;
 	}
 	#message {
 		width: 100%;
@@ -267,18 +267,18 @@ div.scroll {
 		width: 90%;
 	}
 	#information li {
-		font-size: 1em; 
+		font-size: .5em; 
 	}
 	#information li ul li {
-		font-size: 1em;
+		font-size: .5em;
 	}
 	#information p {
-		font-size: 1em;
+		font-size: .5em;
 	}
 }
 
 /*changes for smaller screen*/
-/*@media only screen and (max-device-width: 599px) {
+@media only screen and (max-device-width: 599px) {
 	body {
 		width:100%;
 	}
@@ -297,7 +297,7 @@ div.scroll {
 	}
 	#top {
 		width: 100%; 
-		font-size: 1em;
+		font-size: 5em;
 	}
 	.nav ul {
 		width: 100%;
@@ -339,4 +339,4 @@ div.scroll {
 	#information p {
 		font-size: 1em;
 	}
-}*/
+}
