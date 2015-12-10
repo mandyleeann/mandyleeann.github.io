@@ -258,8 +258,11 @@ div.scroll {
 	#ref {
 		width: 75%;
 	}
+	#ref h3 {
+		font-size: 1em;	
+	}
 	#ref li {
-		font-size: .5em; 
+		font-size: .8em; 
 	}
 	#information {
 		width: 75%;
